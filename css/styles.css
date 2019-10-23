@@ -16,6 +16,7 @@ body {
   text-align: center;
   color: hsl(0, 0%, 99%);
   background-color: hsl(257, 40%, 49%);
+  height: 100vh;
 }
 
 h1 {
@@ -43,10 +44,6 @@ header {
   max-width: 50%;
 }
 
-section {
-  /* border: 1px solid red; */
-}
-
 /* Main */
 .main-content {
   display: flex;
@@ -54,19 +51,11 @@ section {
 }
 
 /* Image section */
-.image-section {
-  flex: 1;
-}
-
 .image-section img {
   max-width: 100%;
 }
 
 /* Main section */
-.main-section {
-  flex: 1;
-}
-
 .main-title {
   margin-top: 50px;
   margin-bottom: 0;
@@ -105,7 +94,7 @@ ul.social-links {
 ul.social-links li {
   width: 30px;
   height: 30px;
-  margin: 10px;
+  margin: 7px;
 }
 
 ul.social-links li a {

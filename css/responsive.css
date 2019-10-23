@@ -1,0 +1,57 @@
+@media screen and (min-width: 1025px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header {
+    flex-basis: 100%;
+  }
+
+  main {
+    flex-basis: 100%;
+  }
+
+  footer {
+    flex-basis: 100%;
+    align-self: flex-end;
+
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-logo {
+    /* margin-left: 3%; */
+  }
+
+  .main-content {
+    flex-direction: row;
+  }
+
+  .image-section {
+    flex: 1;
+  }
+
+  .main-section {
+    flex: 1;
+    text-align: left;
+    margin-left: 25px;
+  }
+
+  .main-title {
+    font-size: 2.2rem;
+    margin-right: 30%;
+  }
+
+  .description {
+    margin-right: 10%;
+  }
+
+  .register-btn {
+    font-size: 1.2rem;
+  }
+
+  ul.social-links {
+    justify-content: flex-end;
+  }
+}
