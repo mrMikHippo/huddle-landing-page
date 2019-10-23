@@ -23,6 +23,11 @@ h1 {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 ul {
   padding: 0;
   list-style: none;
@@ -73,7 +78,7 @@ section {
   padding: 10px 80px;
   color: hsl(257, 40%, 49%);
   border-radius: 30px;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.4);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 .register-btn:focus {
@@ -89,4 +94,30 @@ section {
 /* Footer */
 footer {
   padding-top: 30px;
+}
+
+ul.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.social-links li {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+ul.social-links li a {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.social-links li a:hover {
+  color: hsl(170, 45%, 43%);
+  border-color: hsl(170, 45%, 43%);
 }
