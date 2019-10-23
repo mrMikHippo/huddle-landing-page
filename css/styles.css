@@ -5,3 +5,88 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 50px;
+  text-align: center;
+  color: hsl(0, 0%, 99%);
+  background-color: hsl(257, 40%, 49%);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* Header */
+header {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.header-logo svg {
+  max-width: 50%;
+}
+
+section {
+  /* border: 1px solid red; */
+}
+
+/* Main */
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image section */
+.image-section {
+  flex: 1;
+}
+
+.image-section img {
+  max-width: 100%;
+}
+
+/* Main section */
+.main-section {
+  flex: 1;
+}
+
+.main-title {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.register-btn {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  padding: 10px 80px;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.4);
+}
+
+.register-btn:focus {
+  outline: none;
+}
+
+.register-btn:hover {
+  color: white;
+  background-color: hsl(257, 30%, 69%);
+  border-color: hsl(257, 30%, 69%);
+}
+
+/* Footer */
+footer {
+  padding-top: 30px;
+}
