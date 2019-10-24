@@ -1,7 +1,14 @@
+@media screen and (min-width: 736px) {
+  body {
+    background-size: cover;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   body {
     display: flex;
     flex-wrap: wrap;
+    background-image: url('../images/bg-desktop.svg');
   }
 
   main {
