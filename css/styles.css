@@ -70,7 +70,9 @@ header {
   margin-top: 10px;
   font-size: 0.8rem;
   padding: 10px 80px;
+  background-color: white;
   color: hsl(257, 40%, 49%);
+  border: none;
   border-radius: 30px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
