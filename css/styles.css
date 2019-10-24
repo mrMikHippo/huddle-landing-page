@@ -19,6 +19,11 @@ body {
   height: 100vh;
 }
 
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
