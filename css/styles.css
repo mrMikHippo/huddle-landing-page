@@ -15,8 +15,11 @@ body {
   padding: 50px;
   text-align: center;
   color: hsl(0, 0%, 99%);
-  background-color: hsl(257, 40%, 49%);
+
   height: 100vh;
+  background: no-repeat url('../images/bg-mobile.svg');
+  background-size: contain;
+  background-color: hsl(257, 40%, 49%);
 }
 
 main {
